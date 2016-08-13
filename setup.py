@@ -25,7 +25,7 @@ plugin_description = "Maintain connection between OctoPrint and the printer"
 
 # The plugin's author. Can be overwritten within OctoPrint's internal data
 # via __plugin_author__ in the plugin module
-plugin_author = "Allen McAfee""
+plugin_author = "Allen McAfee"
 
 # The plugin's author's mail address.
 plugin_author_email = "allen@robo3d.com"
