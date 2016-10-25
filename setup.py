@@ -17,7 +17,7 @@ plugin_name = "OctoPrint-MainboardConnection"
 
 # The plugin's version. Can be overwritten within OctoPrint's internal
 # data via __plugin_version__ in the plugin module
-plugin_version = "1.0.0"
+plugin_version = "0.1.5"
 
 # The plugin's description. Can be overwritten within OctoPrint's internal
 # data via __plugin_description__ in the plugin module
@@ -25,7 +25,7 @@ plugin_description = "Maintain connection between OctoPrint and the printer"
 
 # The plugin's author. Can be overwritten within OctoPrint's internal data
 # via __plugin_author__ in the plugin module
-plugin_author = "Allen McAfee"
+plugin_author = "Robo3D"
 
 # The plugin's author's mail address.
 plugin_author_email = "allen@robo3d.com"
