@@ -89,7 +89,7 @@ class MainboardConnectionPlugin(octoprint.plugin.StartupPlugin,
                 # version check: github repository
                 type="github_release",
                 user="Robo3D",
-                repo="OctoPrint-EEPROM-Marlin",
+                repo="Octoprint-MainboardConnection",
                 current=self._plugin_version,
 
                 # update method: pip
