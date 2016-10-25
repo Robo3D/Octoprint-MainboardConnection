@@ -79,6 +79,25 @@ class MainboardConnectionPlugin(octoprint.plugin.StartupPlugin,
                 self._printer.disconnect()
                 self._printer.connect()
                 sleep(15)
+                
+    def get_update_information(self):
+        return dict(
+            systemcommandeditor=dict(
+                displayName="Octoprint Main Board Connection",
+                displayVersion=self._plugin_version,
+
+                # version check: github repository
+                type="github_release",
+                user="Robo3D",
+                repo="OctoPrint-EEPROM-Marlin",
+                current=self._plugin_version,
+
+                # update method: pip
+                #update from robo directly
+                pip="https://github.com/Robo3D/Octoprint-MainboardConnection/{target_version}.zip"
+            )
+        )
+        
 
 __plugin_name__ = "Mainboard Connection Plugin"
 
