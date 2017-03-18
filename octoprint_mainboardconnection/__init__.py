@@ -6,11 +6,10 @@ import octoprint.plugin
 from octoprint.util import RepeatedTimer
 from octoprint.events import eventManager, Events
 
-__author__ = "Allen McAfee <allen@robo3d.com>"
+__author__ = "robo"
 __license__ = ("GNU Affero General Public License "
                "http://www.gnu.org/licenses/agpl.html")
-__copyright__ = ("Copyright (C) 2016 Robo 3D, Inc. - "
-                 "Released under terms of the AGPLv3 License")
+__copyright__ = ("Released under terms of the AGPLv3 License")
 
 
 class MainboardConnectionPlugin(octoprint.plugin.StartupPlugin,
